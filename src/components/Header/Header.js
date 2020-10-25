@@ -15,7 +15,7 @@ const Header = (props) => {
         >
           Laurent Delay
         </h1>
-        <h2>Développeur Web Front-End React.js</h2>
+        <h2>Développeur Web FrontEnd ReactJS</h2>
       </div>
       <Menu onSectionChange={onSectionChange} sectionActive={sectionActive} />
     </header>

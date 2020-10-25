@@ -14,8 +14,10 @@ function About() {
       <p className="description">
         Après plusieurs semaines de travail passioné en vue de me remettre à
         niveau et de découvrir les dernières technologies grâce au site{" "}
-        <a href="https://www.codecademy.com/">Codecademy</a>, me voici plus
-        motivé que jamais!
+        <a href="https://www.codecademy.com/" target="_blank" rel="noreferrer">
+          Codecademy
+        </a>
+        , me voici plus motivé que jamais!
       </p>
       <p className="description">
         Je suis donc à la recherche d'un poste sur le secteur de <em>Lille</em>{" "}

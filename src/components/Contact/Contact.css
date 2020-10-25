@@ -1,3 +1,14 @@
-.Contact {
-    
+.contactLiens {
+  display: flex;
+  flex-direction: column;
+  text-indent: 0;
+  padding-left: 1.5rem;
+}
+
+.contactLiens em {
+  font-style: normal;
+}
+
+.contactLiens a {
+  margin-bottom: 7px;
 }
