@@ -1,3 +1,10 @@
-.About {
-    
+.About .portrait {
+  width: 150px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 3%;
+}
+
+.description {
+  text-align: justify;
 }

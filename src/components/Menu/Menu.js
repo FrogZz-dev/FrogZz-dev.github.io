@@ -9,13 +9,10 @@ const elementsMenu = [
 ];
 
 const Menu = (props) => {
-  const { onSectionChange } = props;
-  const [actif, setActif] = useState("apropos");
+  const { onSectionChange, sectionActive } = props;
 
   const clickHandle = (event) => {
-    console.log(event.target);
     onSectionChange(event.target.id);
-    setActif(event.target.id);
   };
 
   return (
@@ -25,7 +22,7 @@ const Menu = (props) => {
           return (
             <li
               className={
-                "elementMenu" + (actif === element.lien ? " actif" : "")
+                "elementMenu" + (sectionActive === element.lien ? " actif" : "")
               }
               id={element.lien}
               onClick={clickHandle}
