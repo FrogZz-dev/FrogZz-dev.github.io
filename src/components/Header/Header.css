@@ -1,0 +1,22 @@
+.Header {
+  position: fixed;
+  width: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: lightcoral;
+  box-shadow: 0 1px 2px chocolate;
+}
+
+.Header .description {
+  margin-left: 15px;
+}
+
+.Header h1 {
+  font-size: 2rem;
+}
+
+.Header h2 {
+  font-size: 1.4rem;
+}
