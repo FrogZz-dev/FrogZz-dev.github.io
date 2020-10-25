@@ -7,16 +7,32 @@ function About() {
       <h2>À propos</h2>
       <img src="./img/portrait.jpg" alt="portrait" className="portrait" />
       <p className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel urna
-        tincidunt nunc malesuada maximus nec et nisl. Nulla blandit, mi eget
-        fringilla sollicitudin, massa ipsum varius neque, in ornare risus libero
-        at enim. Praesent in feugiat felis. Nullam non tellus porttitor, porta
-        ipsum vel, finibus magna. Duis ipsum augue, cursus non ex eget, commodo
-        gravida tellus. Curabitur eget eros nec est eleifend eleifend. Maecenas
-        ultrices augue eu tellus laoreet fringilla. Suspendisse porta massa at
-        accumsan eleifend. Cras mi ex, ultricies et urna ut, semper hendrerit
-        urna. Donec vehicula cursus diam, in rutrum lorem sodales facilisis.
-        Curabitur at metus orci.
+        Développeur web orienté principalement Front-End, je reviens vers le
+        monde de l'informatique après m'en être éloigné durant plusieures
+        années.
+      </p>
+      <p className="description">
+        Après plusieurs semaines de travail passioné en vue de me remettre à
+        niveau et de découvrir les dernières technologies grâce au site{" "}
+        <a href="https://www.codecademy.com/">Codecademy</a>, me voici plus
+        motivé que jamais!
+      </p>
+      <p className="description">
+        Je suis donc à la recherche d'un poste sur le secteur de <em>Lille</em>{" "}
+        ou de <em>Bruxelles</em> afin de mettre à profit mes connaissances sur
+        des technologies telles que{" "}
+        <i className="fab fa-js">
+          <em>JavaScript</em>
+        </i>
+        ,{" "}
+        <i className="fab fa-react">
+          <em>ReactJS</em>
+        </i>{" "}
+        ou encore{" "}
+        <i className="fab fa-node">
+          <em>NodeJS</em>
+        </i>
+        .
       </p>
     </section>
   );

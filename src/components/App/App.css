@@ -9,6 +9,7 @@
 
 main {
   width: 75%;
+  max-width: 800px;
   height: inherit;
   margin: 0 auto;
   background-color: #edf6ff;
@@ -21,6 +22,7 @@ main section {
 
 main section h2 {
   margin: 15px 0;
+  font-size: 1.8rem;
 }
 
 @media only screen and (max-width: 680px) {

@@ -6,5 +6,22 @@
 }
 
 .description {
-  text-align: justify;
+  max-width: 500px;
+}
+
+.description i {
+  text-indent: 0;
+}
+
+.fab::before {
+  padding-right: 3px;
+}
+
+@media only screen and (max-width: 420px) {
+  .About .portrait {
+    display: block;
+    margin: 0 auto 15px;
+    width: 50%;
+    float: none;
+  }
 }

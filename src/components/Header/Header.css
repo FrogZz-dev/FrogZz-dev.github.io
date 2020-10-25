@@ -19,6 +19,10 @@
   justify-content: space-between;
 }
 
+.Header h1 {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
   .Header .titres {
     flex-direction: row;
@@ -33,5 +37,17 @@
 
   .Header h2 {
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .Header h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Header h2 {
+    display: none;
   }
 }

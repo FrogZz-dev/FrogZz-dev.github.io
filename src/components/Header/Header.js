@@ -8,7 +8,13 @@ const Header = (props) => {
   return (
     <header className="Header">
       <div className="titres">
-        <h1>Laurent Delay</h1>
+        <h1
+          onClick={() => {
+            onSectionChange("apropos");
+          }}
+        >
+          Laurent Delay
+        </h1>
         <h2>Développeur Web Front-End React.js</h2>
       </div>
       <Menu onSectionChange={onSectionChange} sectionActive={sectionActive} />

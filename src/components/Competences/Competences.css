@@ -1,3 +1,31 @@
-.Competences {
-    
+.Competences li::before {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.Competences ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Competences .fab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.Competences .fab em {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.4rem;
+}
+
+.moreInfo {
+  font-size: 1rem;
 }
