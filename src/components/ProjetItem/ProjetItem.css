@@ -1,0 +1,37 @@
+.projet {
+  margin: 15px auto;
+  padding-bottom: 15px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #b9732f;
+}
+
+.projet img {
+  width: 300px;
+  border-radius: 3%;
+}
+
+.projet .texteProjet {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.projet h3 {
+  color: #b9732f;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .projet {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .texteProjet {
+    text-align: center;
+  }
+}

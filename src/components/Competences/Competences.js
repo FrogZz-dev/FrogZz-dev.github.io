@@ -15,6 +15,7 @@ function Competences() {
   return (
     <section className="Competences">
       <h2>Compétences</h2>
+
       <ul>
         {competences.map((competence) => {
           const { texte, icone } = competence;
@@ -26,6 +27,7 @@ function Competences() {
           );
         })}
       </ul>
+
       <p className="moreInfo">
         J'ai choisi de m'orienter vers ces technologies notamment grâce à leur{" "}
         <em>puissance</em> et leur extrême <em>flexibilité</em>. L'ajout de{" "}

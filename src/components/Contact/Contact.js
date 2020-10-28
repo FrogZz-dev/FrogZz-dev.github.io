@@ -11,7 +11,7 @@ function Contact() {
       </p>
       <p className="contactLiens">
         <a href="mailto:laurent.delay89@gmail.com">
-          <i className="fas fa-at">
+          <i className="fas fa-envelope">
             <em>laurent.delay89@gmail.com</em>
           </i>
         </a>

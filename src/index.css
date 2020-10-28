@@ -1,7 +1,6 @@
 html,
 body,
 #root {
-  height: 100%;
   cursor: default;
 }
 
@@ -24,7 +23,7 @@ h2 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 p {

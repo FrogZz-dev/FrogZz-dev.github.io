@@ -1,10 +1,13 @@
 .Menu {
   display: block;
   margin-right: 15px;
+  height: 100%;
 }
 
 .Menu ul {
+  height: 100%;
   display: flex;
+  align-items: flex-end;
 }
 
 .Menu li:first-of-type {
@@ -35,6 +38,7 @@
   }
   .Menu ul {
     flex-direction: column;
+    justify-content: space-around;
   }
 
   .Menu li {
