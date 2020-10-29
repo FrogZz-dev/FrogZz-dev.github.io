@@ -22,7 +22,7 @@ const projetsListe = [
     texte:
       "Un mini-jeu développé en JavaScipt. Saurez-vous retrouver votre chapeau?",
     urlGH: "https://github.com/FrogZz-dev/find-your-hat",
-    url: "find-your-hat",
+    url: "",
   },
 ];
 
