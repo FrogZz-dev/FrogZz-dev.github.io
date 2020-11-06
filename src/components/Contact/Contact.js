@@ -24,7 +24,7 @@ function Contact() {
           <em>LinkedIn</em>
         </a>
         <a
-          href="https://github.com/FrogZz-dev"
+          href="https://github.com/laurentdelay"
           target="_blank"
           rel="noreferrer"
           className="fab fa-github"

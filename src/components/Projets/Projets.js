@@ -7,21 +7,21 @@ const projetsListe = [
     nom: "ravenous",
     texte:
       "Un moteur de recherche d'entreprises développé grâce à ReactJS. Il se base sur l'API Yelp afin de récupérer ses informations.",
-    urlGH: "https://github.com/FrogZz-dev/ravenous",
+    urlGH: "https://github.com/laurentdelay/ravenous",
     url: "/ravenous",
   },
   {
     nom: "jammming",
     texte:
       "Une application permettant de créer des playlists et de les exporter vers Spotify.",
-    urlGH: "https://github.com/FrogZz-dev/jammming",
+    urlGH: "https://github.com/laurentdelay/jammming",
     url: "/jammming",
   },
   {
     nom: "find-your-hat",
     texte:
       "Un mini-jeu développé en JavaScipt. Saurez-vous retrouver votre chapeau?",
-    urlGH: "https://github.com/FrogZz-dev/find-your-hat",
+    urlGH: "https://github.com/laurentdelay/find-your-hat",
     url: "",
   },
 ];
