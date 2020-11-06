@@ -19,7 +19,9 @@ function ProjetItem(props) {
         <h3>{nom}</h3>
         <p>{texte}</p>
         <p>
-          <a href={urlGH}>Voir sur GitHub</a>
+          <a href={urlGH} target="_blank0" rel="noreferrer">
+            Voir sur GitHub
+          </a>
         </p>
       </div>
     </div>
